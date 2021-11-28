@@ -24,9 +24,7 @@ const MainNotes = ({ handlePost, handleUser, post, user, status }) => {
   const sendPost = () => {
     const color = Math.floor(Math.random() * colors.length);
 
-    if (post.length <= 0 && user.length <= 0) {
-      status(true);
-    } else if (post.length <= 0 || user.length <= 0) {
+    if( (post.length <= 0 && user.length <= 0) && (post.length <= 0 || user.length <= 0)){
       status(true);
     } else {
       Axios.post("https://mythoughtswall.herokuapp.com/", {
