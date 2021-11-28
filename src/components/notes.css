@@ -56,8 +56,9 @@
   font-family: "Eraser Dust";
   transform: rotate(3deg);
   position: absolute;
-  padding: 25px 15px;
+  padding: 45px 15px;
   width: 100%;
+  flex: 1;
   height: 200px;
   background-color: rgb(16, 51, 41);
   border-radius: 8px;
