@@ -2,13 +2,7 @@ import React from "react";
 import "./mainNotes.css";
 import Axios from "axios";
 
-const MainNotes = ({
-  handlePost,
-  handleUser,
-  post,
-  user,
-  status,
-}) => {
+const MainNotes = ({ handlePost, handleUser, post, user, status }) => {
   const colors = [
     "rgb(255, 187, 0)",
     "#ff4d00",
@@ -30,14 +24,14 @@ const MainNotes = ({
   const sendPost = () => {
     const color = Math.floor(Math.random() * colors.length);
 
-    if (post.length <= 0 && user.length <= 0) {
+    if (post.length == 0 && user.length == 0) {
       status(true);
     } else {
       Axios.post("https://mythoughtswall.herokuapp.com/", {
         datacolor: colors[color],
         postmessage: post,
         username: user,
-      })
+      });
       status(false);
     }
   };
