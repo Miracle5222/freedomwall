@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/freedomwall/static/css/main.8f3213fb.chunk.css",
-    "main.js": "/freedomwall/static/js/main.7c364d5b.chunk.js",
-    "main.js.map": "/freedomwall/static/js/main.7c364d5b.chunk.js.map",
+    "main.js": "/freedomwall/static/js/main.69b67efc.chunk.js",
+    "main.js.map": "/freedomwall/static/js/main.69b67efc.chunk.js.map",
     "runtime-main.js": "/freedomwall/static/js/runtime-main.f86df228.js",
     "runtime-main.js.map": "/freedomwall/static/js/runtime-main.f86df228.js.map",
     "static/js/2.d053ebb5.chunk.js": "/freedomwall/static/js/2.d053ebb5.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.f86df228.js",
     "static/js/2.d053ebb5.chunk.js",
     "static/css/main.8f3213fb.chunk.css",
-    "static/js/main.7c364d5b.chunk.js"
+    "static/js/main.69b67efc.chunk.js"
   ]
 }
