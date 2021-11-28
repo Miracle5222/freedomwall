@@ -26,6 +26,8 @@ const MainNotes = ({ handlePost, handleUser, post, user, status }) => {
 
     if (post.length <= 0 && user.length <= 0) {
       status(true);
+    } else if (post.length <= 0 || user.length <= 0) {
+      status(true);
     } else {
       Axios.post("https://mythoughtswall.herokuapp.com/", {
         datacolor: colors[color],

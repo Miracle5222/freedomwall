@@ -23,7 +23,6 @@
   }
 }
 .top {
-  
   position: absolute;
   width: 100px;
   z-index: 1;
@@ -56,10 +55,9 @@
   font-family: "Eraser Dust";
   transform: rotate(3deg);
   position: absolute;
-  padding: 45px 15px;
+  padding: 25px 15px;
   width: 100%;
-  flex: 1;
-  height: 200px;
+  min-height: 200px;
   background-color: rgb(16, 51, 41);
   border-radius: 8px;
   display: flex;
@@ -71,12 +69,11 @@
   font-size: 1rem;
   letter-spacing: 3px;
 }
-.hero{
+.hero {
   margin-right: 10px;
   color: rgb(255, 166, 0);
 }
 .name {
-  
   position: absolute;
   z-index: 99;
   bottom: 10px;
