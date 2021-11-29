@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/freedomwall/static/css/main.f8f1174e.chunk.css",
-    "main.js": "/freedomwall/static/js/main.eec483d6.chunk.js",
-    "main.js.map": "/freedomwall/static/js/main.eec483d6.chunk.js.map",
+    "main.css": "/freedomwall/static/css/main.e263fd47.chunk.css",
+    "main.js": "/freedomwall/static/js/main.178c177f.chunk.js",
+    "main.js.map": "/freedomwall/static/js/main.178c177f.chunk.js.map",
     "runtime-main.js": "/freedomwall/static/js/runtime-main.f86df228.js",
     "runtime-main.js.map": "/freedomwall/static/js/runtime-main.f86df228.js.map",
     "static/js/2.d053ebb5.chunk.js": "/freedomwall/static/js/2.d053ebb5.chunk.js",
     "static/js/2.d053ebb5.chunk.js.map": "/freedomwall/static/js/2.d053ebb5.chunk.js.map",
     "index.html": "/freedomwall/index.html",
-    "static/css/main.f8f1174e.chunk.css.map": "/freedomwall/static/css/main.f8f1174e.chunk.css.map",
+    "static/css/main.e263fd47.chunk.css.map": "/freedomwall/static/css/main.e263fd47.chunk.css.map",
     "static/js/2.d053ebb5.chunk.js.LICENSE.txt": "/freedomwall/static/js/2.d053ebb5.chunk.js.LICENSE.txt",
     "static/media/notes.css": "/freedomwall/static/media/EraserDust.7df8bac0.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.f86df228.js",
     "static/js/2.d053ebb5.chunk.js",
-    "static/css/main.f8f1174e.chunk.css",
-    "static/js/main.eec483d6.chunk.js"
+    "static/css/main.e263fd47.chunk.css",
+    "static/js/main.178c177f.chunk.js"
   ]
 }
