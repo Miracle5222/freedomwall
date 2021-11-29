@@ -6,9 +6,15 @@ const Notes = ({ post, name, color }) => {
   return (
     <div className="notes-container" style={{ backgroundColor: `${color}` }}>
       <div className="top" style={{ backgroundColor: `${color}` }}></div>
-      <div className="notes">
-        <span>{post}</span>
-      </div>
+      {post.length >= 200 ? (
+        <div className="notes" style={{ paddingTop: "120px" }}>
+          <span>{post}</span>
+        </div>
+      ) : (
+        <div className="notes">
+          <span>{post}</span>
+        </div>
+      )}
       <h4 className="name">
         <FaRegUser className="hero" />
         {name}
