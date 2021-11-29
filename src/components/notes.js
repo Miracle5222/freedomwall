@@ -6,7 +6,7 @@ const Notes = ({ post, name, color }) => {
   return (
     <div className="notes-container" style={{ backgroundColor: `${color}` }}>
       <div className="top" style={{ backgroundColor: `${color}` }}></div>
-      {post.length >= 200 ? (
+      {post.length >= 100 ? (
         <div className="notes" style={{ paddingTop: "120px" }}>
           <span>{post}</span>
         </div>
